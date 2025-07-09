@@ -61,9 +61,17 @@ h1 {
 }
 
 .topImg {
-    width: 250px;
-    height: 100px;
+    width: 400px;
+    height: 200px;
     background-color: grey;
 }
 
+button {
+    border-radius: 5px;
+    border-style: none;
+    width: 100px;
+    padding: 3px;
+    background-color: #3882F6;
+    color: #F9FAF8
+}
 /* list style and decor */
