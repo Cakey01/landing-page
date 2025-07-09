@@ -55,6 +55,8 @@ a {
     display: flex;
     flex-direction: column;
     width: 40%;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 h1 {
@@ -74,7 +76,7 @@ button {
     border-radius: 5px;
     border-style: none;
     width: 100px;
-    padding: 3px;
+    padding: 6px;
     background-color: #3882F6;
     color: #F9FAF8
 }
