@@ -12,7 +12,9 @@ body {
 
 .hero {
     background-color: #1F2937;
-    height: 33vh;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* header */
@@ -20,20 +22,10 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    
-    
-}
-
-.logo {
-    margin-left: 10%;
+    margin: 0 10% 0 10%;
     color: #F9FAF8
+    
 }
-
-.links {
-    margin-right: 10%;
-
-}
-
 
 ul {
     list-style-type: none;
@@ -45,12 +37,33 @@ ul {
 
 a {
     text-decoration: none;
-    color: lightgray
+    color: lightgray;
 }
+
 /* top */
 
 .top {
+    margin: 0 10% 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
 
+.topText {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+}
+
+h1 {
+    margin: 0;
+}
+
+.topImg {
+    width: 250px;
+    height: 100px;
+    background-color: grey;
 }
 
 /* list style and decor */
