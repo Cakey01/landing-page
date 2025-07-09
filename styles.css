@@ -82,4 +82,43 @@ button {
 }
 /* middle */
 
+.middle {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 10% 0 10%;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+}
 
+h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.img {
+    height: 200px;
+    width: 200px;
+    border: solid #3882F6;
+    border-radius: 10%;
+}
+
+.images {
+    display: flex;
+    gap: 60px;
+}
+
+.images p {
+    text-align: center;
+    margin: 0;
+}
+
+.imgContainer {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    gap: 5px;
+    
+}
